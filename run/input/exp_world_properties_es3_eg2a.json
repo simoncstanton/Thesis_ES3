@@ -1,0 +1,10 @@
+{
+	"name" :	"es3_eg2a",
+	"episodes"		: 3,
+	"timesteps"		: 1000,
+	"world_type"	: "matrix",
+	"gameform"		: "",
+	"reward_type"	: "ordinal",
+	"num_actions"	: 2,
+	"defection"		: 1
+}

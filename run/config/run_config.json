@@ -1,0 +1,72 @@
+{
+	"paths" : {
+		"basepath_hpc" 				: ["es3", "es3_eg2"],
+		"basepath_localhost"		: ["__BASEPATH__", "es3", "es3_eg2"],
+		"basepath_hpc_scratch"		: ["scratch"],
+		
+		"data"						: ["data"],
+		"world_config"				: ["run", "input"],
+		"agent_config"				: ["run", "input"],
+
+		"experiments" 				: ["data"],
+		"observations"	 			: ["results", "observations"],
+		
+		"exp_data_leaf_dirs" : {
+			"action_history"				: "world_actions",
+			"reward_history"				: "world_reward",	
+			"map_outcome_history"			: "world_outcomes",
+			"cumulative_outcome_history"	: "outcomes_cumulative",
+			"agent_internal_state"			: "state_agent",
+			"strategy_internal_state"		: "state_strategy",
+			"rgs"							: "rgs"			
+		}
+	},
+	"config" : {
+		"agent_config"	: "exp_agent_properties_",
+		"world_config"	: "exp_world_properties_",
+		"config_ext"	: ".json"
+	},
+	"data_file_prefix"				: "exp_",
+	"journal_entry_extension"		: ".json",
+	"journal_entry_suffix"			: "_summary",
+	"journal" : {
+		"exp_journal_path"				: ["data", "es3_eg2a"],
+		"obs_journal_path"				: ["results", "observations", "es3_eg2a"],
+		"journal_scratch_path"			: ["obs_exp", "journal"],
+		"journal_sj_summary_path"		: "",
+		"exp_journal_entry_prefix"		: "exp_",
+		"obs_journal_entry_prefix"		: "obs_",
+		"journal_entry_suffix"			: "_summary",
+		"journal_entry_extension"		: ".json"
+	},
+	"obs" : {
+		"data_file_prefix"		: "obs_",
+		"data_file_extension"	: ".csv",
+		"leaf_view"				: "view",
+		"leaf_data"				: "data"
+	},
+	"analysis"			: {
+		"recog_prefix"								: "recog_",
+		"recog"			: {
+			"recog"									: "_recog",
+			"leaf_data"								: "recog"
+		}
+	},
+	"exp_data_leaf_dirs" : {
+		"recog"							: "rgs",
+		"action_history"				: "world_actions",
+		"reward_history"				: "world_reward",	
+		"map_outcome_history"			: "world_outcomes",
+		"cumulative_outcome_history"	: "world_outcomes",
+		"agent_internal_state"			: "state_agent",
+		"strategy_internal_state"		: "state_strategy"
+	},
+	"exp" : {
+		"data_file_prefix"						: "exp_",
+		"sj_compressed_file_extension"			: ".tar.gz",
+		"history_file_compressed_extension"		: ".csv.gz",
+		"history_file_uncompressed_extension"	: ".csv",
+		"recog_uncompressed_extension"			: ".json"
+	}
+	
+}

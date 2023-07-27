@@ -1,0 +1,16 @@
+{
+	"number_of_agents" : 2,
+	"has_state" : true,
+	"exp_mode"	: "symmetric",
+	"strategy" :		"qlearning",
+		"strategy_parameters" : {
+			"memory_depth"		: 1, 
+			"has_state"			: true,
+			"initial_action"	: 0.5, 
+			"alpha"				: 0.1, 
+			"gamma"				: 0.9, 
+			"epsilon"			: 0.1, 
+			"optimistic_0"		: 0, 
+			"optimistic_1"		: 0
+		}
+}

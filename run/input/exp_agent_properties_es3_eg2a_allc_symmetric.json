@@ -1,0 +1,10 @@
+{
+	"number_of_agents" : 2,
+	"exp_mode"	: "symmetric",
+	"has_state" : true,
+	"strategy" :		"allc",
+	"strategy_parameters" : {
+		"memory_depth" 	: 0,
+		"has_state" 	: false
+	}
+}
