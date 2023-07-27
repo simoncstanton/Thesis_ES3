@@ -8,3 +8,5 @@ Code for **Experiment Series Three: Game Model Recognition** from in-progress do
 Please be aware this is research code and is not intended for use in production. No attempt has been made to clean this code, rather it is left in-situ at a point where the implementation achieved the objective. 
 
 IMPORTANT NOTE: RGS files in ES3 are elided from public repository at this time. My goal is to complete the ‘sparse rewards’ model described in §7.3 and then release the full code for ES3 along with the code for the ‘sparse rewards’ model. 
+
+Dataset for this experiment series is here: https://doi.org/10.5281/zenodo.8173539
